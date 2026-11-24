@@ -7,7 +7,11 @@ authors = [
     { name = "M-Shehzad-Code", email = "shahzadkhankp02@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google-genai>=3.6.1",
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 assignment-01-two-provider-cost-tracker = "assignment_01_two_provider_cost_tracker:main"
